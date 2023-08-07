@@ -10,9 +10,29 @@ body {
   color: white;
 }
 
+/* Кнопка "Сообщить об ошибке" */
+.b-feedback {
+  display: none;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    ВЕРХНЕЕ МЕНЮ
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Закрепление верхнего меню */
+/* спиздил но это ахуенно */
+.l-top_menu-v2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.l-page {
+  margin-top: var(--top-menu-height);
+}
+.b-comments-notifier {
+  top: var(--top-menu-height) !important;
+}
 
 /* Верхнее меню */
 .l-top_menu-v2 {
@@ -36,7 +56,6 @@ body {
    ПРОФИЛЬ
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-
 /* Аватарка */
 .profile-head .avatar img {
   border-radius: 50%;
@@ -57,6 +76,20 @@ body {
 .p-profiles .profile-head .c-brief header h1 {
   font-weight: 600;
   animation: gradientText 3s ease-in-out infinite;
+}
+
+/* Информации под ником */
+.p-profiles .profile-head .c-brief header .notice {
+  /* display: none; */
+  color: white;
+}
+
+/* "Список аниме" и "Список манги" */
+.b-stats_bar .title {
+  color: #2b2b2b; /* Приватный*/
+}
+.b-stats_bar a.title {
+  color: white; /* Открытый*/
 }
 
 /* Полоски аниме и манги */
