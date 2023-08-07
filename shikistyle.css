@@ -1,3 +1,5 @@
+
+/* Фон */
 body {
   background: black;
 }
@@ -8,9 +10,11 @@ body {
   color: white;
 }
 
-/* ----------------ВЕРХНЕЕ МЕНЮ---------------- */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ВЕРХНЕЕ МЕНЮ
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-/* Меню */
+/* Верхнее меню */
 .l-top_menu-v2 {
   background: #000000;
   color: #fff;
@@ -18,18 +22,44 @@ body {
 
 /* Подменю */
 .l-top_menu-v2 .submenu {
+  border-radius: 15px;
   background: #000000;
   border-color: #fff;
 }
 
-/* ------------------ПРОФИЛЬ------------------ */
+/* Кнопки меню */
+.l-top_menu-v2 .menu-dropdown>span {
+  background: #000;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ПРОФИЛЬ
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 
 /* Аватарка */
 .profile-head .avatar img {
   border-radius: 50%;
 }
 
-/* Полосы аниме и манги */
+/* Анимация ника */
+@keyframes gradientText {
+  0%,
+  100% {
+    color: #ffffff;
+  }
+  50% {
+    color: #000000;
+  }
+}
+
+/* Ник в профиле */
+.p-profiles .profile-head .c-brief header h1 {
+  font-weight: 600;
+  animation: gradientText 3s ease-in-out infinite;
+}
+
+/* Полоски аниме и манги */
 
 .b-stats_bar.anime .bar,
 .b-stats_bar.manga .bar {
@@ -53,21 +83,4 @@ body {
 .b-stats_bar.manga .bar .third {
   font-size: 0;
   background-color: #2b2b2b;
-}
-
-/* Анимка текста */
-@keyframes gradientText {
-  0%,
-  100% {
-    color: #ffffff;
-  }
-  50% {
-    color: #ff0000;
-  }
-}
-
-/* Ник пользователя в профиле */
-.p-profiles .profile-head .c-brief header h1 {
-  font-weight: 600;
-  animation: gradientText 1s ease-in-out infinite;
 }
