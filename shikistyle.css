@@ -1,22 +1,24 @@
+/* ПРОФИЛЬ */
+
 /* Полосы аниме и манги */
 .b-stats_bar.anime .bar .first {
-    background-color: #;
+    background-color: #ffffff;
 }
 .b-stats_bar.anime .bar .second {
-    background-color: #;
+    background-color: #2b2b2b;
 }
 
 .b-stats_bar.manga .bar .firs  {
-    background-color: #;
+    background-color: #ffffff;
 }
 .b-stats_bar.manga .bar .second {
-    background-color: #;
+    background-color: #2b2b2b;
 }
 
 /* Анимка текста */
 @keyframes gradientText {
-  0%, 100% { color: #000000 } /* Черный */
-  50% { color: #FF0000 } /* Красный */
+  0%, 100% { color: #ffffff }
+  50% { color: #FF0000 }
 }
 
 /* Ник пользователя в профиле */
