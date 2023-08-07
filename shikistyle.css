@@ -1,0 +1,26 @@
+/* Полосы аниме и манги */
+.b-stats_bar.anime .bar .first {
+    background-color: #;
+}
+.b-stats_bar.anime .bar .second {
+    background-color: #;
+}
+
+.b-stats_bar.manga .bar .firs  {
+    background-color: #;
+}
+.b-stats_bar.manga .bar .second {
+    background-color: #;
+}
+
+/* Анимка текста */
+@keyframes gradientText {
+  0%, 100% { color: #000000 } /* Черный */
+  50% { color: #FF0000 } /* Красный */
+}
+
+/* Ник пользователя в профиле */
+.p-profiles .profile-head .c-brief header h1 {
+  font-weight: 600;
+  animation: gradientText 1s ease-in-out infinite;
+}
