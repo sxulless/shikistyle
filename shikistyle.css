@@ -2,9 +2,24 @@ body {
   background: black;
 }
 
+/* Центральная область */
 .l-page {
   background-color: black;
   color: white;
+}
+
+/* ----------------ВЕРХНЕЕ МЕНЮ---------------- */
+
+/* Меню */
+.l-top_menu-v2 {
+  background: #000000;
+  color: #fff;
+}
+
+/* Подменю */
+.l-top_menu-v2 .submenu {
+  background: #000000;
+  border-color: #fff;
 }
 
 /* ------------------ПРОФИЛЬ------------------ */
