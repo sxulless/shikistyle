@@ -108,6 +108,14 @@ html[data-color-mode="light"] {
   color: #f2f2f2; /* Открытый*/
 }
 
+.b-stats_bar .stat_names .stat_name a {
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.b-stats_bar .stat_names .stat_name a:hover {
+  text-decoration: none;
+}
+
 /* Полоски аниме и манги */
 
 .b-stats_bar.anime .bar,
