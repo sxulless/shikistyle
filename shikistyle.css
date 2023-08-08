@@ -4,21 +4,21 @@
 
 /* Фон */
 body {
-  background: black;
+  background: #000;
 }
 
 /* Центральная область */
 .l-page {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #f2f2f2;
 }
 
 /* Подзаголовки блоков */
 .headline,
 .midheadline,
 .subheadline {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #f2f2f2;
 }
 
 /* Кнопка "Сообщить об ошибке" */
@@ -46,15 +46,15 @@ body {
 
 /* Верхнее меню */
 .l-top_menu-v2 {
-  background: #000000;
-  color: #fff;
+  background: #000;
+  color: #f2f2f2;
 }
 
 /* Подменю */
 .l-top_menu-v2 .submenu {
   border-radius: 15px;
-  background: #000000;
-  border-color: #fff;
+  background: #000;
+  border-color: #f2f2f2;
 }
 
 /* Кнопки меню */
@@ -75,10 +75,10 @@ body {
 @keyframes gradientText {
   0%,
   100% {
-    color: #ffffff;
+    color: #f2f2f2;
   }
   50% {
-    color: #000000;
+    color: #000;
   }
 }
 
@@ -90,8 +90,7 @@ body {
 
 /* Информации под ником */
 .p-profiles .profile-head .c-brief header .notice {
-  /* display: none; */
-  color: white;
+  display: none;
 }
 
 /* "Список аниме" и "Список манги" */
@@ -99,7 +98,7 @@ body {
   color: #2b2b2b; /* Приватный*/
 }
 .b-stats_bar a.title {
-  color: white; /* Открытый*/
+  color: #f2f2f2; /* Открытый*/
 }
 
 /* Полоски аниме и манги */
@@ -115,7 +114,7 @@ body {
 .b-stats_bar.anime .bar .first,
 .b-stats_bar.manga .bar .first {
   font-size: 0;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 .b-stats_bar.anime .bar .second,
 .b-stats_bar.manga .bar .second {
@@ -125,7 +124,7 @@ body {
 .b-stats_bar.anime .bar .third,
 .b-stats_bar.manga .bar .third {
   font-size: 0;
-  background-color: #2b2b2b;
+  background-color: #191919;
 }
 
 /* Графики */
@@ -144,13 +143,13 @@ body {
   background: #b5b5b5;
 }
 .bar.simple .bar.s0 {
-  background: #f7f7f7;
+  background: #f2f2f2;
 }
 .bar.simple .bar:hover.s3,
 .bar.simple .bar:hover.s2,
 .bar.simple .bar:hover.s1,
 .bar.simple .bar:hover.s0 {
-  background: white;
+  background: #fff;
 }
 
 .bar.vertical {
@@ -159,5 +158,5 @@ body {
 
 /* Даты под графиком */
 .bar.vertical .line .x_label {
-  color: white;
+  color: #fff;
 }
