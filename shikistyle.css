@@ -1,3 +1,6 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ОБЩИЕ
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Фон */
 body {
@@ -6,6 +9,14 @@ body {
 
 /* Центральная область */
 .l-page {
+  background-color: black;
+  color: white;
+}
+
+/* Подзаголовки блоков */
+.headline,
+.midheadline,
+.subheadline {
   background-color: black;
   color: white;
 }
@@ -20,7 +31,6 @@ body {
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Закрепление верхнего меню */
-/* спиздил но это ахуенно */
 .l-top_menu-v2 {
   position: fixed;
   top: 0;
@@ -48,7 +58,7 @@ body {
 }
 
 /* Кнопки меню */
-.l-top_menu-v2 .menu-dropdown>span {
+.l-top_menu-v2 .menu-dropdown > span {
   background: #000;
 }
 
@@ -116,4 +126,38 @@ body {
 .b-stats_bar.manga .bar .third {
   font-size: 0;
   background-color: #2b2b2b;
+}
+
+/* Графики */
+.graph.vertical .line .bar-container .bar {
+  border-radius: 15px 15px 0 0;
+  width: 40%;
+}
+
+.bar.simple .bar.s3 {
+  background: #232323;
+}
+.bar.simple .bar.s2 {
+  background: #515151;
+}
+.bar.simple .bar.s1 {
+  background: #b5b5b5;
+}
+.bar.simple .bar.s0 {
+  background: #f7f7f7;
+}
+.bar.simple .bar:hover.s3,
+.bar.simple .bar:hover.s2,
+.bar.simple .bar:hover.s1,
+.bar.simple .bar:hover.s0 {
+  background: white;
+}
+
+.bar.vertical {
+  border-bottom: none;
+}
+
+/* Даты под графиком */
+.bar.vertical .line .x_label {
+  color: white;
 }
