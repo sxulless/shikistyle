@@ -7,6 +7,13 @@ body {
   background: #000;
 }
 
+/* Надо будер разобраться! */
+html[data-color-mode="light"] {
+  --link-color: #f2f2f2;
+  --link-hover-color: #f2f2f2;
+  --link-active-color: #f2f2f2;
+}
+
 /* Центральная область */
 .l-page {
   background-color: #000;
@@ -159,4 +166,9 @@ body {
 /* Даты под графиком */
 .bar.vertical .line .x_label {
   color: #fff;
+}
+
+/* Блок «Клубы» */
+.p-profiles-show .profile-content .cc-2a > .c-column:last-child {
+  display: none;
 }
