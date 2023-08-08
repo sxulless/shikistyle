@@ -73,6 +73,11 @@ html[data-color-mode="light"] {
    ПРОФИЛЬ
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+/* ЧБ фильтр на картинки в профиле */
+.p-profiles img {
+  filter: grayscale(60%);
+}
+
 /* Аватарка */
 .profile-head .avatar img {
   border-radius: 50%;
