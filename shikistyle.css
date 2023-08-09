@@ -24,6 +24,7 @@ html[data-color-mode="light"] {
 .headline,
 .midheadline,
 .subheadline {
+  border-left: none;
   background-color: #000;
   color: #f2f2f2;
 }
@@ -117,6 +118,7 @@ html[data-color-mode="light"] {
   color: #f2f2f2;
   cursor: pointer;
 }
+.b-stats_bar a.title:hover,
 .b-stats_bar .stat_names .stat_name a:hover {
   text-decoration: none;
 }
@@ -124,7 +126,8 @@ html[data-color-mode="light"] {
 /* Полоски аниме и манги */
 
 .b-stats_bar.anime .bar,
-.b-stats_bar.manga .bar {
+.b-stats_bar.manga .bar,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover {
   font-size: 0;
   border-radius: 10px;
   height: 8px;
